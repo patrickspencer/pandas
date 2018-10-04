@@ -2336,7 +2336,7 @@ def hist_frame(data, column=None, by=None, grid=True, xlabelsize=None,
                xrot=None, ylabelsize=None, yrot=None, ax=None, sharex=False,
                sharey=False, figsize=None, layout=None, bins=10, **kwds):
     """
-    Make a histogram of the DataFrame's.
+    Plot a histogram for each column of the DataFrame.
 
     A `histogram`_ is a representation of the distribution of data.
     This function calls :meth:`matplotlib.pyplot.hist`, on each series in
